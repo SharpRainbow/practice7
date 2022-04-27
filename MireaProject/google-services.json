@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "389036454436",
+    "project_id": "practice7-c8ec8",
+    "storage_bucket": "practice7-c8ec8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389036454436:android:1a4bfabb6abb6106891eb1",
+        "android_client_info": {
+          "package_name": "ru.mirea.panin.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389036454436-e8po6i2j9nfrj7e7niopkrn8i7f3aa1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeSODOdQP8hhC36pe3L_h_TWjEAZ5f76Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389036454436-e8po6i2j9nfrj7e7niopkrn8i7f3aa1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389036454436:android:23d8b41b074b1840891eb1",
+        "android_client_info": {
+          "package_name": "ru.mirea.panin.mireaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389036454436-e8po6i2j9nfrj7e7niopkrn8i7f3aa1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeSODOdQP8hhC36pe3L_h_TWjEAZ5f76Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389036454436-e8po6i2j9nfrj7e7niopkrn8i7f3aa1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

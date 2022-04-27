@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@drawable/img_145644"
+            android:title="@string/menu_browser"/>
+        <item
+            android:id="@+id/nav_calc"
+            android:icon="@drawable/img_calc"
+            android:title="@string/menu_calc"/>
+        <item
+            android:id="@+id/nav_player"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/menu_player"/>
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/menu_sensor"/>
+        <item
+            android:id="@id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_camera"/>
+        <item
+            android:id="@id/nav_audio"
+            android:icon="@android:drawable/ic_btn_speak_now"
+            android:title="@string/menu_audio"/>
+        <item
+            android:id="@id/nav_story"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/menu_story"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/menu_settings"/>
+        <item
+            android:id="@+id/nav_networkData"
+            android:icon="@android:drawable/stat_sys_download"
+            android:title="@string/menu_network_data"/>
+        <item
+            android:id="@+id/nav_authorization"
+            android:icon="@drawable/orig"
+            android:title="@string/menu_auth"/>
+
+    </group>
+</menu>

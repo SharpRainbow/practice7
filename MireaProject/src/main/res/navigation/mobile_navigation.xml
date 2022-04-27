@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.panin.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.panin.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.panin.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.panin.mireaproject.ui.browser.BrowserFragment"
+        android:label="@string/menu_browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_calc"
+        android:name="ru.mirea.panin.mireaproject.ui.calc.CalcFragment"
+        android:label="@string/menu_calc"
+        tools:layout="@layout/fragment_calc" />
+    <fragment
+        android:id="@+id/nav_player"
+        android:name="ru.mirea.panin.mireaproject.ui.player.PlayerFragment"
+        android:label="@string/menu_player"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.panin.mireaproject.ui.sensors.SensorFragment"
+        android:label="@string/menu_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.panin.mireaproject.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.panin.mireaproject.ui.audiorecorder.AudioFragment"
+        android:label="@string/menu_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_story"
+        android:name="ru.mirea.panin.mireaproject.ui.stories.StoryFragment"
+        android:label="@string/menu_story"
+        tools:layout="@layout/fragment_story" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.panin.mireaproject.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_networkData"
+        android:name="ru.mirea.panin.mireaproject.ui.networkdata.NetworkDataFragment"
+        android:label="@string/menu_network_data"
+        tools:layout="@layout/fragment_network_data" />
+    <fragment
+        android:id="@+id/nav_authorization"
+        android:name="ru.mirea.panin.mireaproject.ui.auth.AuthorizationFragment"
+        android:label="@string/menu_auth"
+        tools:layout="@layout/fragment_authorization" />
+</navigation>
